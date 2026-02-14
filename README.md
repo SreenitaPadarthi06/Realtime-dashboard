@@ -27,7 +27,7 @@ Make sure Docker is installed.
 ```bash
 docker compose up --build
 ```
-Open in your browser:
+## Open in your browser:
 
 http://localhost:3000
 
@@ -74,4 +74,4 @@ realtime-dashboard/
 
 ## 👨‍💻 Author
 
-Your Name
+P.K.Sreenita
