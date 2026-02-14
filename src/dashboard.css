@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.dashboard {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 25px;
+}
+
+.metric-value {
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.status {
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.status.connected {
+  color: green;
+}
+
+.status.disconnected,
+.status.error,
+.status.failed {
+  color: red;
+}
+
+.notification {
+  background: #f9f9f9;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border-left: 4px solid #4a90e2;
+}
