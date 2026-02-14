@@ -2,7 +2,8 @@ import { WebSocketServer } from "ws";
 
 const wss = new WebSocketServer({ 
   host: "0.0.0.0",
-  port: 5001
+  port: process.env.PORT || 5001
+
 });
 
 
